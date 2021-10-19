@@ -36,23 +36,6 @@ fetch(api)
 функцию, которая отправляет запрос на db.json стоит закомментировать.
 */
 
-// let API = 'http://localhost:3000/characters';
-// const addProduct = () => {
-//     let data = fetch('https://rickandmortyapi.com/api/character')
-//         data
-//             .then(response => response.json())
-//             .then(data => {
-//                 let result = data.results
-//                 fetch(API, {
-//                     method: 'POST',
-//                     headers:{
-//                         "Content-Type": "application/json"
-//                     },
-//                     body: JSON.stringify(data)
-//                 })
-//             })
-// }
-// addProduct()
 
 function sendDates() {
     fetch(api)
